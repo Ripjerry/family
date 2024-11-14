@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Football Fan Hub - Chat with Fans of Your Favorite Clubs">
+    <title>Football Fan Hub - Club Chats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Football Fan Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#clubs">Clubs</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <h2>Welcome to Football Fan Hub!</h2>
+            <p>Your place to discuss and chat with fans of your favorite football clubs. Choose a club below to join the conversation.</p>
+        </section>
+
+        <!-- Clubs Section -->
+        <section id="clubs" class="clubs-section">
+            <h2>Choose Your Club to Chat</h2>
+            <div class="club-list">
+                <div class="club">
+                    <h3><a href="#chelsea-chat">Chelsea FC</a></h3>
+                    <img src="chelsea-logo.png" alt="Chelsea FC Logo">
+                </div>
+                <div class="club">
+                    <h3><a href="#manchester-united-chat">Manchester United</a></h3>
+                    <img src="manchester-united-logo.png" alt="Manchester United Logo">
+                </div>
+                <div class="club">
+                    <h3><a href="#barcelona-chat">FC Barcelona</a></h3>
+                    <img src="barcelona-logo.png" alt="FC Barcelona Logo">
+                </div>
+                <div class="club">
+                    <h3><a href="#real-madrid-chat">Real Madrid CF</a></h3>
+                    <img src="real-madrid-logo.png" alt="Real Madrid Logo">
+                </div>
+                <!-- Add more clubs as needed -->
+            </div>
+        </section>
+
+        <!-- Chat Sections for Clubs -->
+        <section id="chelsea-chat" class="chat-room">
+            <h2>Chelsea FC - Fan Chat</h2>
+            <div class="chat-box" id="chelsea-chat-box">
+                <!-- Chat messages for Chelsea will go here -->
+            </div>
+            <form id="chelsea-chat-form">
+                <input type="text" id="chelsea-message" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="manchester-united-chat" class="chat-room">
+            <h2>Manchester United - Fan Chat</h2>
+            <div class="chat-box" id="manchester-united-chat-box">
+                <!-- Chat messages for Manchester United will go here -->
+            </div>
+            <form id="manchester-united-chat-form">
+                <input type="text" id="manchester-united-message" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="barcelona-chat" class="chat-room">
+            <h2>FC Barcelona - Fan Chat</h2>
+            <div class="chat-box" id="barcelona-chat-box">
+                <!-- Chat messages for Barcelona will go here -->
+            </div>
+            <form id="barcelona-chat-form">
+                <input type="text" id="barcelona-message" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="real-madrid-chat" class="chat-room">
+            <h2>Real Madrid CF - Fan Chat</h2>
+            <div class="chat-box" id="real-madrid-chat-box">
+                <!-- Chat messages for Real Madrid will go here -->
+            </div>
+            <form id="real-madrid-chat-form">
+                <input type="text" id="real-madrid-message" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Football Fan Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
